@@ -1,0 +1,37 @@
+# Binaries
+/cmd/server/server
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+*.out
+
+# Go workspace
+/vendor/
+go.work
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend
+web/node_modules/
+web/dist/
+web/.vite/
+web/yarn.lock
+web/package-lock.json

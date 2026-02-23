@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Frontend
+web/node_modules
+web/dist
+web/.vite
+
+# Go
+*.exe
+*.test
+*.out
+vendor/
+
+# Documentation
+*.md
+!README.md
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
